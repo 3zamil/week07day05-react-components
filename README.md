@@ -92,8 +92,7 @@ Notice that the outcome is the same since both the function and class component 
 
 ### Code along: A Class Component
 
-Create a new file in `src` called `Movie.jsx`, and add this simple component to
-it.
+Create a new folder in `src` called `components`. Inside `components` add a file and call it `Movie.jsx`, and add this simple component to it.
 
 ```js
 // bring in React and Component from React
@@ -164,7 +163,7 @@ const App = () => (
 Then let's import the component we just built.
 
 ```js
-import Movie from './Movie.js'
+import Movie from './components/Movie.js'
 ```
 
 Then, we can render our movie component, like this:
@@ -180,7 +179,7 @@ Then, we can render our movie component, like this:
 
 #### Interpolation
 
-Let's slightly modify the contents of our `src/Movie.js` file:
+Let's slightly modify the contents of our `src/components/Movie.js` file:
 
 ```js
 // bring in React and Component from React
