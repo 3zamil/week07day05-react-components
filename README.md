@@ -92,7 +92,7 @@ Notice that the outcome is the same since both the function and class component 
 
 ### Code along: A Class Component
 
-Create a new file in `src` called `Movie.js`, and add this simple component to
+Create a new file in `src` called `Movie.jsx`, and add this simple component to
 it.
 
 ```js
